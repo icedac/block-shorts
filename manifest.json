@@ -1,0 +1,18 @@
+{
+    "name": "Block Youtube Shorts",
+    "description": "왼쪽 메뉴와 홈 피드에서 모든 Shorts 섹션을 완전히 숨깁니다.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+  
+    "icons": {
+      "128": "icon128.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+}
