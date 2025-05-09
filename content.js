@@ -6,7 +6,7 @@
  *********************************************************************/
 
 /* ---------- 공통 함수 ---------- */
-function insertPlaceholder(oldEl, text = 'Shorts 숨김') {
+function insertPlaceholder(oldEl, text = 'Shorts Removed') {
     const ph = document.createElement('div');
     ph.className = 'ysb-placeholder';
     ph.textContent = text;
